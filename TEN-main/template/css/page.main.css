@@ -430,3 +430,448 @@ h2 {
 .section5 .leftPart button {
     width: 290px;
 }
+
+@media all and (max-width: 1600px) {
+    .mission {
+        margin-left: 12%;
+    }
+}
+
+@media all and (max-width: 1366px) {
+    .section1 {
+        height: 570px;
+    }
+    .videoBox {
+        width: 780px;
+        height: 440px;
+    }
+    .section3 {
+        height: 1200px;
+    }
+    .greyBox {
+        top: 500px;
+    }
+    .arrow {
+        top: 900px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .schemeBox {
+        width: 900px;
+    }
+    .mission {
+        margin-left: 10%;
+        width: 340px;
+        margin-top: 470px;
+    }
+    .videoBox {
+        width: 600px;
+        height: 380px;
+    }
+    .section3 {
+        height: 1170px;
+    }
+    .greyBox {
+        top: 460px;
+        width: 530px;
+    }
+    .arrow {
+        top: 860px;
+    }
+    .blueBox {
+        width: 510px;
+    }
+    .adv-box {
+        width: 900px;
+    }
+    .promo-box {
+        right: 30px;
+    }
+    .section1 .rightPart form {
+        margin-left: 30px;
+    }
+    .section1 {
+        height: 550px;
+    }
+}
+
+@media all and (max-width: 1150px) {
+     .promo-box h1 {
+        font-size: 45px;
+    }
+    .promo-box {
+        width: 360px;
+        height: 250px;
+    }
+    .pushText {
+        font-size: 22px;
+    }
+    .author {
+        margin-left: 225px;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    
+    .greyBox {
+        width: 50%;
+    }
+    .blueBox {
+        width: 50%;
+    }
+    .section5 {
+        height: 500px;
+    }
+    .section1 .rightPart form {
+        width: 435px;
+    }
+    .section5 .leftPart form {
+        width: 100%;
+        margin-left: 0;
+    }
+    .greyBox {
+        padding-top: 130px;
+    }
+}
+
+@media all and (max-width: 940px){
+    .adv-box {
+        width: 100%;
+        padding: 0 40px;
+        padding-top: 80px;
+        padding-bottom: 100px;
+        display: block;
+    }
+    .adv-block {
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .section2 {
+        height: auto;
+    }
+    .buttonBox {
+        margin-bottom: 60px;
+        margin-left: calc(50% - 117px);
+        margin-top: -80px;
+    }
+    .schemeBox {
+        width: 100%;
+        height: auto;
+        padding: 0 20px;
+    }
+    .section1 .rightPart form input {
+        width: 300px;
+    }
+    .section1 .rightPart h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .section1 .rightPart form input[type="checkbox"] + label {
+        width: 200px;
+    }
+    .section1 {
+        height: 510px;
+    }
+    .promo-box h1 {
+        font-size: 40px;
+        margin-left: -30px;
+    }
+    .section1 .rightPart form {
+        width: 100%;
+        margin: 0;
+        height: 100%;
+        padding-bottom: 40px;
+    }
+    
+    .blueBox {
+        padding-top: 30px;
+    }
+    .mission {
+        margin-left: 5%;
+    }
+    .section5 .leftPart form {
+        padding: 40px 20px;
+    }
+    .section5 .leftPart form input {
+        width: 90%;
+    }
+    .section5 .leftPart form input[type="checkbox"] + label {
+        width: 65%;
+    }
+    .section5 .leftPart h3 {
+        margin-top: 0;
+    }
+    .greyBox p {
+        font-size: 16px;
+    }
+    .blueBox ol li {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .adv-box {
+        align-items: flex-start;
+    }
+    .adv-block {
+        width: 33.333333%;
+    }
+    .adv-block:nth-child(4) {
+        margin-left: 15%;
+    }
+    .adv-block p {
+        width: 95%;
+        margin:0 auto;
+        margin-top: 20px;
+        height: 60px;
+    }
+}
+
+@media all and (max-width: 850px) {
+    .promo-box h1 {
+        font-size: 36px;
+        margin-left: 20px;
+    }
+    .pushText {
+        margin-left: 80px;
+    }
+    .promo-box {
+        right: 10px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .section1 {
+        height: auto;
+        display: block;
+    }
+    .section1 .leftPart {
+        width: 100%;
+        height: 410px;
+    }
+    .section1 .rightPart {
+        width: 100%;
+        height: 500px;
+    }
+    .promo-box {
+        width: 60vw;
+        height: 35vw;
+        right: calc(50% - 30vw);
+    }
+    .promo-box h1 {
+        font-size: 50px;
+        margin-left: -70px;
+    }
+    
+    .section2 .row {
+        text-align: center;
+    }
+    .greyBox {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .blueBox {
+        padding-right: 20px;
+        padding-left: 40px;
+    }
+    .blueBox ol li {
+        font-size: 16px;
+    }
+    .blueBox ol li span {
+        left: -40px;
+    }
+    .mission {
+        width: 260px;
+    }
+    .section5 .leftPart form input[type="checkbox"] + label {
+        width: 200px;
+        margin-left: 40px;
+    }
+    .section4 {
+        padding-top: 40px;
+    }
+}
+
+@media all and (max-width: 640px) {
+    
+    .angle {
+        display: none;
+    }
+}
+
+@media all and (max-width: 630px) {
+    .section4 {
+        height: 770px;
+    }
+    .schemeBox {
+        display: block;
+    }
+    .schemeBlock {
+        display: inline-block;
+        width: 49%;
+        margin-bottom: 40px;
+    }
+    .adv-block {
+        width: 50%;
+        height: 250px;
+        box-sizing: border-box;
+        margin:0 auto;
+    }
+    .adv-block:nth-child(4) {
+        margin-left: 0;
+    }
+    .adv-block p {
+        margin-top: 20px;
+    }
+    .adv-block:last-child {
+        width: 100%;
+        text-align: center;
+    }
+    .adv-block:last-child p {
+        width: 130px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .videoBox {
+        width: 95vw;
+        height: 53vw;
+        bottom: -25px;
+    }
+    .greyBox {
+        position: relative;
+        width: 100%;
+        top: 0;
+        right: 0;
+        padding-top: 80px;
+        height: auto;
+    }
+    .blueBox {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        height: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .arrow {
+        display: none;
+    }
+    .section3 {
+        height: auto;
+    }
+    .section3 h2 {
+        margin-bottom: 50px;
+    }
+    .mission {
+        margin: 0;
+        width: 100%;
+        padding: 40px 20px;
+    }
+    .section5 .rightPart {
+        display: none;
+    }
+    .section5 .leftPart {
+        width: 100%;
+    }
+    .section1 .rightPart h3 {
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 596px) {
+    .promo-box h1 {
+        font-size: 30px;
+        margin-left: -20px;
+    }
+    .promo-box {
+        width: 80vw;
+        height: 50vw;
+        left: 10vw;
+    }
+    .pushText {
+        font-size: 20px;
+        margin-left: 65px;
+    }
+    .author {
+        display: none;
+    }
+}
+
+@media all and (max-width: 550px) {
+    .adv-block .img-part,
+    .schemeBlock .img-part {
+        width: 105px;
+        height: 105px;
+        padding-top: 19px;
+    }
+    .adv-block p, .schemeBlock p {
+        font-size: 16px;
+    }
+    .step {
+        right: 0;
+        top: 0;
+    }
+    .adv-box {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .section1 .leftPart {
+        height: 360px;
+    }
+    .section2 .row {
+        padding: 0;
+        margin: 0;
+    }
+    .schemeBlock .img-part {
+        margin-bottom: 20px;
+    }
+    .section4 {
+        height: 570px;
+    }
+    .greyBox {
+        padding-bottom: 40px;
+    }
+    .section3 {
+        padding-top: 40px;
+    }
+    .videoBox {
+        margin-top: 0;
+    }
+    .buttonBox {
+        margin-bottom: 30px;
+    }
+    .adv-box {
+        padding-top: 40px;
+    }
+    .adv-block {
+        height: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 420px) {
+    .section1 .leftPart {
+        height: 250px;
+    }
+    .schemeBlock p {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 345px) {
+    .adv-block {
+        margin-bottom: 40px;
+    }
+    .schemeBlock {
+        width: 50%;
+    }
+    
+    .pushText {
+        margin-left: 40px;
+    }
+}
