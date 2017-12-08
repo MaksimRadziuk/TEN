@@ -1,0 +1,123 @@
+body {
+    background-color: #fff;
+}
+* {
+    font-family:'Roboto Condensed';
+}
+
+a, a:hover, a:focus {
+    text-decoration: none;
+}
+button:focus, button:hover {
+    outline: none;
+}
+
+.top-bar-box {
+    height: 75px;
+    background-color: #fff;
+}
+.logo-box {
+    float: left;
+    height: 75px;
+}
+.logo-box a{
+    margin-top: 17px;
+    display: block;
+    width: 165px;
+    height: 40px;
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.cabinet-box {
+    float: right;
+}
+.cabinet-box a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+    height: 75px;
+}
+.cabinet-icon {
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/user-icon.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+.cabinet-text {
+    color:#4b4b4b;
+    font-size: 16px;
+}
+
+
+footer {
+    width: 100%;
+}
+footer .topPart {
+    width: 100%;
+    background-color: #526771;
+    height: 70px;
+}
+footer .politicPart {
+    width: 100%;
+    background-color: #455962;
+    height: 40px;
+}
+footer .topPart .copyright-box {
+    width: 1170px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .politicPart .container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+footer .politicPart .container a {
+    color: #78929e;
+    font-size: 14px;
+    margin-right: 2.5%;
+}
+footer .politicPart .container a:last-child {
+    margin-right: 0;
+}
+.copyright {
+    font-size: 14px;
+    color: #fff;
+}
+.madeBy {
+    font-size: 14px;
+    color: #fff;
+}
+.madeBy span {
+    color: #6fd1ff;
+}
+.social-links {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.social-links a {
+    display: block;
+    width: 25px;
+    height: 25px;
+    border:2px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+}
+.social-links a i {
+    font-size: 11px;
+    color: #fff;
+    line-height: 20px;
+}
