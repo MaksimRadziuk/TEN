@@ -126,20 +126,6 @@
 .section1 .rightPart form input[type="checkbox"] + label a {
     color: #6fd1ff;
 }
-button {
-    width: 245px;
-    height: 50px;
-    background-color: #f6a630;
-    color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    text-transform:uppercase;
-    border:none;
-    border-radius: 5px;
-    -webkit-box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
-    -moz-box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
-    box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
-}
 
 .section2 {
     width: 100%;
@@ -266,7 +252,7 @@ h2 {
     color: #2897cb;
     font-size: 18px;
     text-align: center;
-    line-height: 25px;
+    line-height: 27px;
     position: absolute;
     top: 5px;
     left: -60px;
@@ -430,6 +416,11 @@ h2 {
 .section5 .leftPart button {
     width: 290px;
 }
+
+/* === ПОПАП ВХОД === */
+
+
+
 
 @media all and (max-width: 1600px) {
     .mission {

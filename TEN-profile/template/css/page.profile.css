@@ -1,0 +1,146 @@
+input:focus, input:hover {
+    outline: none;
+}
+header {
+    border-bottom: 2px solid #2897cb;
+}
+.container {
+    width: 1200px;
+}
+.profile h1:before {
+    content: '';
+    position: absolute;
+    width:200px;
+    height: 3px;
+    background-color: #2897cb;
+    top: -40px;
+    left: 0;
+}
+.profile h1 {
+    position: relative;
+    font-size: 30px;
+    color: #576e79;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.profile h2 {
+    font-size: 24px;
+    color: #2897cb;
+    text-align: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.profile form p {
+    font-size: 18px;
+    color: #4b4b4b;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.profile form input {
+    width: 100%;
+    max-width: 540px;
+    min-width: 280px;
+    height: 40px;
+    border-radius: 2px;
+    border:1px solid #ccc;
+    margin-bottom: 25px;
+    padding-left: 20px;
+}
+.profile button.profile-btn {
+    width: 145px;
+    display: block;
+    margin:0 auto;
+    margin-bottom: 60px;
+}
+.profile form.personalData input[type=password] {
+    margin-bottom: 50px;
+}
+.profile .balance {
+    border-top:2px solid #b8b8b8;
+}
+.profile .balance h2 {
+    margin-top: 55px;
+}
+.profile .balance .summaryBalance {
+    font-size: 24px;
+    color: #2b98cc;
+    margin-bottom: 30px;
+}
+.profile .balance .putSum::-webkit-input-placeholder {
+    color:#a8a8a8; font-style: italic;}
+.profile .balance .putSum::-moz-placeholder          {
+    color:#a8a8a8; font-style: italic;}/* Firefox 19+ */
+.profile .balance .putSum:-moz-placeholder           {
+    color:#a8a8a8; font-style: italic;}/* Firefox 18- */
+.profile .balance .putSum:-ms-input-placeholder      {
+    color:#a8a8a8; font-style: italic;}
+
+.profile .balance .radioCheckers {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.profile .balance input[type="radio"] {
+    display: none;
+}
+.profile .balance input[type="radio"] + label {
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+.profile .balance input[type="radio"] + label:before {
+    content: '';
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:1px solid #ccc;
+    margin-bottom: -10px;
+    margin-right: 20px;
+}
+.profile .balance input[type="radio"]:checked + label:before {
+    background-image: url(../img/radio-checked.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.profile .balance .profile-btn {
+    margin-bottom: 100px;
+}
+
+/* === ПОПАП БЛАГОДАРНОСТЬ === */
+#popup-thanks {
+    text-align: center;
+}
+#popup-thanks h3 {
+    margin-top: 90px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    text-align: center;
+}
+#popup-thanks p {
+    margin-top: 0;
+    margin-bottom: 90px;
+    font-size: 18px;
+    text-align: center;
+}
+#popup-thanks p span {
+    color:#2b98cc;
+}
+/* === КОНЕЦ ПОПАП БЛАГОДАРНОСТЬ === */
+
+
+@media all and (max-width: 1280px) {
+    .container {
+        width: 960px;
+    }
+}
+@media all and (max-width: 990px) {
+    .container {
+        width: 95%;
+    }
+}

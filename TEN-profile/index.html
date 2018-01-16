@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>TEN</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="template/css/bootstrap.min.css">
+    <link rel="stylesheet" href="template/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="template/fonts/stylesheet.css" type="text/css">
+    <link href="template/css/all.css" type="text/css" rel="stylesheet" />
+    <link href="template/css/page.profile.css" type="text/css" rel="stylesheet" />
+
+</head>
+<body>
+<!-- ШАПКА --> 
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="container top-bar-box">
+          <div class="logo-box">
+            <a href="#"></a>
+          </div>
+          <div></div>
+          <div class="cabinet-box">
+            <a href="#">
+              <span class="cabinet-icon"></span>
+              <span class="cabinet-text">Личный кабинет</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+<!-- КОНЕЦ ШАПКА -->
+
+<!-- КОНТЕНТ СТРАНИЦЫ -->
+  <section class="content profile">
+    <div class="container">
+      <h1>лк: профиль</h1>
+
+      <form action="" class="personalData">
+        <h2>Личные данные</h2>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row">
+            <p>Ваше имя:</p>
+            <input type="text" placeholder="Ваше имя">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-hidden"></div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row">
+            <p>Номер телефона:</p>
+            <input type="phone" placeholder="9(999)999 99 99">
+          </div>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row">
+            <p>Адрес электронной почты:</p>
+            <input type="email" placeholder="example@email.com">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-hidden"></div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row">
+            <p>Пароль:</p>
+          <input type="password" placeholder="******">
+          </div>
+        </div>
+        <button class="profile-btn" id="save">сохранить</button>
+      </form>
+
+      <form action="" class="balance">
+        <h2>Баланс</h2>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row">
+            <p>Ваш баланс</p>
+            <p class="summaryBalance">10 000 руб.</p>
+            <p>Пополнить баланс:</p>
+            <input type="text" placeholder="Введите сумму на которую хотите пополнить" class="putSum">
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 col-sm-2 col-xs-hidden"></div>
+        <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+          <div class="row radioCheckers">
+            <p>Либо выберите:</p>
+            <input type="radio" name="fixedSum" id="oneSum"><label for="oneSum">1 000 руб.</label>
+            <input type="radio" name="fixedSum" id="fiveSum"><label for="fiveSum">5 000 руб.</label>
+            <input type="radio" name="fixedSum" id="tenSum"><label for="tenSum">10 000 руб.</label>
+          </div>
+        </div>
+        <button class="profile-btn" id="replent">пополнить</button>
+      </form>
+    </div>
+  </section>
+<!-- КОНЕЦ КОНТЕНТ СТРАНИЦЫ -->
+
+<!-- ФУТЕР -->
+  <footer>
+    <div class="topPart">
+      <div class="copyright-box">
+        <div class="copyright">&copy TEN Teaching English Now 2017</div>
+        <div class="social-links">
+          <a href="#" class="fcb-link"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+          <a href="#" class="odnk-link"><i class="fa fa-odnoklassniki" aria-hidden="true"></i></a>
+          <a href="#" class="tw-link"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="#" class="vk-link"><i class="fa fa-vk" aria-hidden="true"></i></a>
+          <a href="#" class="ytb-link"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="#" class="inst-link"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <div class="madeBy">Дизайн и разработка <span>MVA Corp</span></div>
+      </div>
+    </div>
+    <div class="politicPart">
+      <div class="container">
+        <a href="#">Политика конфиденциальности</a>
+        <a href="#">Использование cookies</a>
+        <a href="#">Пользовательское соглашение</a>
+      </div>
+    </div>
+  </footer>
+<!-- КОНЕЦ ФУТЕР -->
+
+<!-- ПОПАП -->
+  <div id="popup-background"></div>
+
+  <div class="popup" id="popup-entrance">
+    <div class="wrap">
+      <form action="">
+        <h3>Вход на сайт</h3>
+        <p>Адрес эл. почты:</p>
+        <input type="email" class="email">
+        <p>Пароль:</p>
+        <input type="password" class="password">
+        <div class="policy">
+          <input type="checkbox" id="policy-entrance">
+          <label for="policy-entrance">Принимаю <a href="#">Пользовательское соглашение</a> и <a href="#">Политику конфиденциальности</a></label>
+        </div>
+        <button class="submit">войти</button>
+      </form>
+      <div class="popup-close"></div>
+    </div>
+  </div>
+
+  <div class="popup" id="popup-thanks">
+    <div class="wrap">
+        <h3>Спасибо за покупку</h3>
+        <p>Ваш баланс пополнен на <span>5 000 руб.</span></p>
+      <div class="popup-close"></div>
+    </div>
+  </div>
+<!-- КОНЕЦ ПОПАП -->
+
+
+<script src="template/js/jquery-3.1.0.min.js"></script>
+<script src="template/js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/9ae2a3549a.js"></script>
+<script src="template/js/common.js"></script>
+<script src="template/js/profile.js"></script>
+
+
+</body>
+</html>
