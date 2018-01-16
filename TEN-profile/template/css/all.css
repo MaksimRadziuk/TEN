@@ -22,7 +22,6 @@ button {
     border:none;
     border-radius: 5px;
     -webkit-box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
-    -moz-box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
     box-shadow: 0px 5px 0px 0px rgba(219,148,43,1);
 }
 
@@ -48,9 +47,15 @@ button {
     float: right;
 }
 .cabinet-box a {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     width: 150px;
     height: 75px;
 }
@@ -85,17 +90,35 @@ footer .topPart .copyright-box {
     width: 1170px;
     margin: 0 auto;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 footer .politicPart .container {
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 footer .politicPart .container a {
     color: #78929e;
@@ -118,9 +141,15 @@ footer .politicPart .container a:last-child {
 }
 .social-links {
     width: 200px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .social-links a {
     display: block;
@@ -156,14 +185,27 @@ footer .politicPart .container a:last-child {
     min-width: 390px;
     width: 25%;
     background-color: #fff;
-    animation: popupScale 0.2s ease;
+    -webkit-animation: popupScale 0.2s ease;
+            animation: popupScale 0.2s ease;
+}
+@-webkit-keyframes popupScale {
+    0% {
+        -webkit-transform: scale(.7);
+                transform: scale(.7);
+    }
+    100% {
+        -webkit-transform: scale(1);
+                transform: scale(1);
+    }
 }
 @keyframes popupScale {
     0% {
-        transform: scale(.7);
+        -webkit-transform: scale(.7);
+                transform: scale(.7);
     }
     100% {
-        transform: scale(1);
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }
 }
 .popup .wrap {
@@ -281,7 +323,9 @@ footer .politicPart .container a:last-child {
     }
     footer .topPart .copyright-box {
         position: relative;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .copyright {
         position: absolute;

@@ -44,8 +44,12 @@ body {
 .policy-box ul li{
     margin-bottom: 25px;
     font-size: 16px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .policy-box ul li span {
     display: inline-block;
