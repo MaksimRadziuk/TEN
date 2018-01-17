@@ -178,12 +178,10 @@ footer .politicPart .container a:last-child {
     display: none;
     position: fixed;
     top: 18%;
-    left: 45%;
+    left: 50%;
     margin-right: auto;
-    margin-left: auto;
-    max-width: 550px;
-    min-width: 390px;
-    width: 25%;
+    margin-left: -275px;
+    width: 550px;
     background-color: #fff;
     -webkit-animation: popupScale 0.2s ease;
             animation: popupScale 0.2s ease;
@@ -289,6 +287,10 @@ footer .politicPart .container a:last-child {
     footer .topPart .copyright-box {
         width: 900px;
     }
+    .popup {
+        width: 390px;
+        margin-left: -195px;
+    }
 }
 
 @media all and (max-width: 940px) {
@@ -300,9 +302,7 @@ footer .politicPart .container a:last-child {
 }
 
 @media all and (max-width: 768px) {
-    .popup {
-        left: 42%;
-    }
+
 }
 
 @media all and (max-width: 630px) {
@@ -312,9 +312,7 @@ footer .politicPart .container a:last-child {
 }
 
 @media all and (max-width: 600px) {
-    .popup {
-        left: 40%;
-    }
+
 }
 
 @media all and (max-width: 560px) {
@@ -339,6 +337,7 @@ footer .politicPart .container a:last-child {
         left: auto;
         width: 100%;
         margin-left: 0;
+        top: 20px;
     }
 }
 

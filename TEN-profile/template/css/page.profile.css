@@ -1,3 +1,4 @@
+
 input:focus, input:hover {
     outline: none;
 }
@@ -7,10 +8,13 @@ header {
 .container {
     width: 1200px;
 }
+.profile {
+	min-height: calc(100vh - 188px);
+}
 .profile h1:before {
     content: '';
     position: absolute;
-    width:200px;
+    width:180px;
     height: 3px;
     background-color: #2897cb;
     top: -40px;
@@ -149,5 +153,10 @@ header {
 @media all and (max-width: 990px) {
     .container {
         width: 95%;
+    }
+}
+@media all and (max-width: 550px) {
+    .container {
+        width: 100%;
     }
 }
