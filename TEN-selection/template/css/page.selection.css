@@ -91,10 +91,72 @@ header {
     margin:0 auto;
     margin-bottom: 30px;
     font-size: 16px;
+    position: relative;
 }
 .selection .screenFourth form input[type="radio"]:first-child + label {
     margin-top: 100px;
 }
+
+.selection .screenFourth form input[type="radio"] + label.completed:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: -40px;
+    top:calc(50% - 10px);
+    background-image: url(../img/completed-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.selection .screenFourth form input[type="radio"] + label.not-completed:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    position: absolute;
+    right: -40px;
+    top:calc(50% - 10px);
+    background-image: url(../img/not-completed-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.back {
+    display: block;
+    background-color: #f6a630;
+    text-align: center;
+    -webkit-box-shadow: 0px 5px 0px 0px rgba(219,148,143,1);
+    -moz-box-shadow: 0px 5px 0px 0px rgba(219,148,143,1);
+    box-shadow: 0px 5px 0px 0px rgba(219,148,143,1);
+    padding: 17px 0 14px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:.2s all linear;
+    border-radius: 4px;
+    width: 115px;
+    margin-top: 80px;
+}
+.back:before {
+    content: '';
+    width: 15px;
+    height: 11px;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 0px;
+    background-image: url(../img/back-arrow.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
 
 
 /* === ПОПАП БЛАГОДАРНОСТЬ === */
@@ -144,8 +206,11 @@ header {
         width: 100%;
     }
 }
-@media all and (max-width:350px) {
+@media all and (max-width:360px) {
     .selection .screenFirst form input[type="radio"] + label {
         width: 90%;
+    }
+    .selection .screenFourth form input[type="radio"] + label {
+        width: 200px;
     }
 }

@@ -15,4 +15,17 @@ $(document).ready(function(){
 		$('.screenFourth').delay(800).fadeIn();
 	});
 
+	$('.screenSecond .back').click(function(){
+		$('.screenSecond').delay(400).fadeOut();
+		$('.screenFirst').delay(800).fadeIn();
+	});
+	$('.screenThird .back').click(function(){
+		$('.screenThird').delay(400).fadeOut();
+		$('.screenSecond').delay(800).fadeIn();
+	});
+	$('.screenFourth .back').click(function(){
+		$('.screenFourth').delay(400).fadeOut();
+		$('.screenThird').delay(800).fadeIn();
+	});
+
 });
