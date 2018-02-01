@@ -1,0 +1,139 @@
+
+header {
+    border-bottom: 2px solid #2897cb;
+}
+.container {
+    width: 1200px;
+    padding: 0;
+}
+.result {
+    min-height: calc(100vh - 187px);
+    padding-bottom: 150px;
+}
+.result h1:before {
+    content: '';
+    position: absolute;
+    width:185px;
+    height: 3px;
+    background-color: #2897cb;
+    top: -40px;
+    left: 0;
+}
+.result h1 {
+    position: relative;
+    font-size: 30px;
+    color: #576e79;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.result .content {
+    margin-top: 70px;
+    width: 100%;
+}
+.result .content p {
+    color: #4b4b4b;
+}
+.result .content .thanks {
+    display: block;
+    width: 100%;
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.result .content .perfomance {
+    display: block;
+    width: 100%;
+    text-align: center; 
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+.result .content .perfomance span {
+    font-size: 60px;
+    font-weight: 200;
+}
+.result .content .perfomance span.orange {
+    color: #f6a630;
+}
+.result .content .perfomance span.blue {
+    color: #2897cb;
+}
+.result .content .horizontLine {
+    width: 100%;
+    height: 2px;
+    background-color: #b8b8b8;
+    margin-bottom: 50px;
+}
+.result .content .congratulations {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.result .content .manualCheck, .result .content .description {
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.result .content .manualCheck>span {
+    color: #2897cb;
+    font-size: 24px;
+}
+.result .content .buttonWrap {
+    margin-top: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.result .content .buttonWrap button {
+    margin-right: 50px;
+    min-width: 185px;
+    font-size: 18px;
+    width: 26%;
+}
+.result .content .buttonWrap button:last-child {
+    margin-right: 0;
+}
+
+@media all and (max-width: 1280px) {
+    .container {
+        width: 960px;
+    }
+}
+@media all and (max-width: 990px) {
+    .container {
+        width: 95%;
+    }
+}
+@media all and (max-width: 660px) {
+    .result .content .buttonWrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+    .result .content .buttonWrap button {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 305px;
+    }
+    .result .content .buttonWrap button:last-child {
+        margin-bottom: 0;
+    }
+}
+@media all and (max-width: 550px) {
+    .container {
+        width: 100%;
+        padding:0 15px;
+    }
+}
+@media all and (max-width:360px) {
+
+}
