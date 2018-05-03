@@ -28,6 +28,7 @@ button {
 .top-bar-box {
     height: 75px;
     background-color: #fff;
+    position: relative;
 }
 .logo-box {
     float: left;
@@ -70,6 +71,28 @@ button {
 .cabinet-text {
     color:#4b4b4b;
     font-size: 16px;
+}
+.breadcrumb {
+    position: absolute;
+    bottom: -60px;
+    left: 10px;
+    background-color: transparent;
+}
+.breadcrumb>a {
+    display: inline;
+    color: #4b4b4b;
+    font-size: 1rem;
+}
+.breadcrumb>a:hover {
+    color: #2897cb;
+}
+.breadcrumb>a:last-child {
+    color: #f6a630;
+    pointer-events: none;
+}
+.breadcrumb>.divider {
+    color: #4b4b4b;
+    font-size: 1rem;
 }
 
 
@@ -306,7 +329,7 @@ footer .politicPart .container a:last-child {
 }
 
 @media all and (max-width: 630px) {
-    .madeBy {
+    .madeBy, .breadcrumb {
         display: none;
     }
 }
